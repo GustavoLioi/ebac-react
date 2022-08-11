@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import book from "./book.png" ;
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+    <header className="App-header">
+      <ul className= "books-posicion">
+    <li className="livro"><img src={book} alt= "livro" /> </li>
+    <li className="livro"><img src={book} alt= "livro" /> </li>
+    <li className="livro"><img src={book} alt= "livro" /> </li>
+    <li className="livro"><img src={book} alt= "livro" /> </li>
+
+      </ul>
+      <footer className='name'>
+      <p>feito por: GUSTAVO MARINHO LIOI NASCENTES</p>
+
+      </footer>
       </header>
     </div>
   );
